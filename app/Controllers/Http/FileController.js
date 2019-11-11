@@ -22,6 +22,8 @@ class FileController {
         name: fileName
       })
 
+      console.log('teste2')
+
       if (!upload.moved()) {
         throw upload.error()
       }
